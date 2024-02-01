@@ -1,0 +1,16 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(231, 231, 231);
+    margin: 0;
+    padding: 0;
+    display: grid;
+    .container {
+        height: 99vh;
+        .routes {
+            height: calc(100% - 38px);
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
